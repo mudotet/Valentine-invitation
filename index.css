@@ -1,51 +1,50 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #F9E3E3;
-    display: flex;
-    justify-content: center;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f9e3e3;
+  display: flex;
+  justify-content: center;
 }
 
-h1{
-    color: #d32f2f;
+h1 {
+  color: #d32f2f;
 }
 
-.main__container{
-    width: 80%;
-    height: 900px;
+.main__container {
+  width: 80%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button__yes {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button__no {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .main__container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
+  }
 }
-
-.button__yes{
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.button__no{
-    background-color: #f44336;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-@media screen and (max-width: 768px){
-    .main__container{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-}
-
